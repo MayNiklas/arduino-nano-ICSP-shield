@@ -2943,7 +2943,7 @@
 		)
 		(property "Value" "10µF"
 			(at 0 -1.68 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "f1d59802-001c-419a-9252-9c0fe3ae2c0e")
 			(effects
 				(font
