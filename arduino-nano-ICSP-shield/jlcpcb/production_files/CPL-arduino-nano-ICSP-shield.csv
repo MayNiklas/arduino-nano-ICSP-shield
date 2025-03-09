@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10µF,C_0603_1608Metric,12.6,6.4,0.0,bottom
+D1,LED,LED_0603_1608Metric,3.225,12.0,0.0,top
+D2,LED,LED_0603_1608Metric,3.195,8.5,0.0,top
+D3,LED,LED_0603_1608Metric,3.225,5.0,0.0,top
+J1,Analog,PinHeader_1x15_P2.54mm_Vertical,21.59,1.27,270.0,bottom
+J2,Digital,PinHeader_1x15_P2.54mm_Vertical,21.59,16.51,270.0,bottom
+J3,AVR-ISP-6,IDC-Header_2x03_P2.54mm_Vertical-ICSP-6,30.54,8.53,-90.0,top
+R1,140Ω,R_0603_1608Metric,12.6,11.425,0.0,bottom
