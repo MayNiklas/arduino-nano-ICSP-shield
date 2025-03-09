@@ -3743,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 36.83 270)
+		(at 102.87 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3768,7 +3768,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.87 35.052 90)
+			(at 102.87 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
