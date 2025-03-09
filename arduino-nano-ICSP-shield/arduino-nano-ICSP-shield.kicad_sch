@@ -2877,7 +2877,7 @@
 	)
 	(global_label "programming"
 		(shape input)
-		(at 120.65 50.8 0)
+		(at 128.27 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2887,7 +2887,7 @@
 		)
 		(uuid "3435ff31-3a6f-4c8f-8ee4-c2cc658ad0a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.1881 50.8 0)
+			(at 143.8081 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2943,7 @@
 	)
 	(global_label "heartbeat"
 		(shape input)
-		(at 120.65 24.13 0)
+		(at 128.27 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2953,7 +2953,7 @@
 		)
 		(uuid "6cddc408-9ea9-425f-ad85-fd9f20344eed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7411 24.13 0)
+			(at 140.3611 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 	)
 	(global_label "error"
 		(shape input)
-		(at 120.65 36.83 0)
+		(at 128.27 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2997,7 +2997,7 @@
 		)
 		(uuid "8969ea21-4bc5-4c36-9272-4fe0c3125d3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.3265 36.83 0)
+			(at 135.9465 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3541,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f464281-d606-4060-a3bb-7ea9743265d3")
 		(property "Reference" "D1"
 			(at 115.2525 17.78 0)
@@ -3748,7 +3747,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 36.83 270)
+		(at 106.68 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3757,7 +3756,7 @@
 		(fields_autoplaced yes)
 		(uuid "49fe206e-d3b3-4af4-b725-6a3bbc604b9f")
 		(property "Reference" "#PWR01"
-			(at 92.71 36.83 0)
+			(at 100.33 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 36.8299 90)
+			(at 102.87 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 36.83 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 36.83 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 36.83 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3814,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 36.83 90)
+		(at 124.46 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3824,15 +3823,15 @@
 		(fields_autoplaced yes)
 		(uuid "4bf32253-d021-4970-bc4d-4efc5ddb7564")
 		(property "Reference" "R1"
-			(at 102.87 30.48 90)
+			(at 124.46 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "140Ω"
-			(at 102.87 33.02 90)
+		(property "Value" "100Ω"
+			(at 124.46 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.87 38.608 90)
+			(at 124.46 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 36.83 0)
+			(at 124.46 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3857,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 36.83 0)
+			(at 124.46 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,6 +4567,142 @@
 			(project "arduino-nano-ICSP-shield"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee3017d-8533-40cd-be63-d984e172437b")
+		(property "Reference" "R2"
+			(at 124.46 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 124.46 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.46 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a54a4c-9f0a-452b-b9a8-9a0f1b965485")
+		)
+		(pin "2"
+			(uuid "1a48bee0-0578-419f-b582-fedc587e02c8")
+		)
+		(instances
+			(project "arduino-nano-ICSP-shield"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c81303e1-6a91-445b-a603-d81edc975ea2")
+		(property "Reference" "R3"
+			(at 124.46 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 124.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.46 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485ec406-b440-471f-874e-9735ff2a608e")
+		)
+		(pin "2"
+			(uuid "3b1a5850-0193-4f09-a9fe-2c637c43c1c7")
+		)
+		(instances
+			(project "arduino-nano-ICSP-shield"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "R3")
 					(unit 1)
 				)
 			)
