@@ -5,7 +5,11 @@
 	(uuid "0d35483a-0b12-46cc-b9f2-896fd6831779")
 	(paper "A4")
 	(title_block
+		(title "Arduino nano ICSP shield")
 		(date "sam. 04 avril 2015")
+		(rev "1")
+		(company "MayNiklas")
+		(comment 1 "https://github.com/MayNiklas/arduino-nano-ICSP-shield")
 	)
 	(lib_symbols
 		(symbol "Connector:AVR-ISP-6"
