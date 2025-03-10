@@ -8,7 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
+		(title "Arduino Nano ICSP shield")
 		(date "sam. 04 avril 2015")
+		(rev "1")
+		(company "MayNiklas")
+		(comment 1 "https://github.com/MayNiklas/arduino-nano-ICSP-shield")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -3393,6 +3397,19 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "${TITLE} by ${COMPANY} (rev. ${REVISION})\n${COMMENT1}"
+		(at 101.9 97.4 0)
+		(layer "F.SilkS")
+		(uuid "83d33d77-a65f-422e-a74a-a8fe00fb12a3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify left bottom)
