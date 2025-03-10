@@ -2795,7 +2795,7 @@
 			)
 		)
 	)
-	(global_label "error"
+	(global_label "led-error"
 		(shape output)
 		(at 71.12 36.83 0)
 		(fields_autoplaced yes)
@@ -2807,7 +2807,7 @@
 		)
 		(uuid "15e9bce0-c7e5-4ee9-a563-aaf83a9251b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7965 36.83 0)
+			(at 83.2717 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 	)
-	(global_label "programming"
+	(global_label "led-programming"
 		(shape input)
 		(at 128.27 50.8 0)
 		(fields_autoplaced yes)
@@ -2895,7 +2895,7 @@
 		)
 		(uuid "3435ff31-3a6f-4c8f-8ee4-c2cc658ad0a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.8081 50.8 0)
+			(at 148.2833 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2905,7 @@
 			)
 		)
 	)
-	(global_label "heartbeat"
+	(global_label "led-heartbeat"
 		(shape output)
 		(at 71.12 34.29 0)
 		(fields_autoplaced yes)
@@ -2917,7 +2917,7 @@
 		)
 		(uuid "3a746444-3fe9-4bad-98f5-cf409ef15e5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.2111 34.29 0)
+			(at 87.6863 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2949,7 @@
 			)
 		)
 	)
-	(global_label "heartbeat"
+	(global_label "led-heartbeat"
 		(shape input)
 		(at 128.27 24.13 0)
 		(fields_autoplaced yes)
@@ -2961,7 +2961,7 @@
 		)
 		(uuid "6cddc408-9ea9-425f-ad85-fd9f20344eed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.3611 24.13 0)
+			(at 144.8363 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2993,7 @@
 			)
 		)
 	)
-	(global_label "error"
+	(global_label "led-error"
 		(shape input)
 		(at 128.27 36.83 0)
 		(fields_autoplaced yes)
@@ -3005,7 +3005,7 @@
 		)
 		(uuid "8969ea21-4bc5-4c36-9272-4fe0c3125d3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9465 36.83 0)
+			(at 140.4217 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3059,7 @@
 			)
 		)
 	)
-	(global_label "programming"
+	(global_label "led-programming"
 		(shape output)
 		(at 71.12 39.37 0)
 		(fields_autoplaced yes)
@@ -3071,7 +3071,7 @@
 		)
 		(uuid "ade32e60-4eee-464e-8d76-af9eb746d90b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.6581 39.37 0)
+			(at 91.1333 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
