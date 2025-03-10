@@ -3838,7 +3838,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "R"
 			(at 124.46 20.32 90)
 			(effects
 				(font
@@ -4598,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "R"
 			(at 124.46 33.02 90)
 			(effects
 				(font
@@ -4666,7 +4666,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "R"
 			(at 124.46 46.99 90)
 			(effects
 				(font
