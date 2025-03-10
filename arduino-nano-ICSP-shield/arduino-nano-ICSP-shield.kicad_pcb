@@ -3403,7 +3403,7 @@
 		)
 	)
 	(gr_text "${TITLE} by ${COMPANY} (rev. ${REVISION})\n${COMMENT1}"
-		(at 101.9 97.4 0)
+		(at 101.9 97.5 0)
 		(layer "F.SilkS")
 		(uuid "83d33d77-a65f-422e-a74a-a8fe00fb12a3")
 		(effects
