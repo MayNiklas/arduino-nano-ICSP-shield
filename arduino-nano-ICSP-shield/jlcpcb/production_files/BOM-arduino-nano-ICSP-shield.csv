@@ -1,7 +1,7 @@
 Comment,Designator,Footprint,LCSC,Quantity
 10µF,C1,C_0603_1608Metric,C19702,1
-LED,"D1,D2,D3",LED_0603_1608Metric,C2286,3
-140Ω,R1,R_0603_1608Metric,C22876,1
+470,"R1,R2,R3",R_0603_1608Metric,C23179,3
+LED,"D1,D2,D3",LED_0603_1608Metric,C965799,3
 AVR-ISP-6,J3,IDC-Header_2x03_P2.54mm_Vertical-ICSP-6,,1
 Analog,J1,PinHeader_1x15_P2.54mm_Vertical,,1
 Digital,J2,PinHeader_1x15_P2.54mm_Vertical,,1
