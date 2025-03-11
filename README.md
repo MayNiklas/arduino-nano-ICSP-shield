@@ -4,6 +4,8 @@ A simple shield, that exposes a 6 pin ICSP header to use an Arduino Nano as a pr
 
 ## BOM
 
+Interactive BOM available: https://mayniklas.github.io/arduino-nano-ICSP-shield/
+
 I'm linking the products I'm testing with, not the ones I recommend.
 
 * 1x [Arduino Nano](https://www.aliexpress.com/item/1005007392605300.html?spm=a2g0o.order_list.order_list_main.17.49c7180237FQjT)
