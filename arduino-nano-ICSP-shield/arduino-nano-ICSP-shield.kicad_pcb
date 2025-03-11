@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Nano ICSP shield")
-		(date "sam. 04 avril 2015")
+		(date "2025-03-11")
 		(rev "1")
 		(company "MayNiklas")
 		(comment 1 "https://github.com/MayNiklas/arduino-nano-ICSP-shield")
