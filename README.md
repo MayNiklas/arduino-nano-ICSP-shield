@@ -2,6 +2,8 @@
 
 A simple shield, that exposes a 6 pin ICSP header to use an Arduino Nano as a ISP programmer.
 
+> [!CAUTION] This board has not been physically tested yet, as I'm waiting for the PCBs to arrive.
+
 ![3D render of the PCB, fully populated](img/render.png)
 
 ## BOM
