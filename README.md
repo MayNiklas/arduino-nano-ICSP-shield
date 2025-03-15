@@ -1,6 +1,8 @@
 # arduino-nano-ICSP-shield
 
-A simple shield, that exposes a 6 pin ICSP header to use an Arduino Nano as a programmer.
+A simple shield, that exposes a 6 pin ICSP header to use an Arduino Nano as a ISP programmer.
+
+![3D render of the PCB, fully populated](img/render.png)
 
 ## BOM
 
