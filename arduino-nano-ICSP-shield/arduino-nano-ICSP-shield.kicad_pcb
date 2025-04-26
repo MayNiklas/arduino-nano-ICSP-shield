@@ -1067,6 +1067,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C7430309"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3cdd78e4-f6cf-43ac-8cb6-03c25f7bea0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "IDC?Header*2x03* Pin?Header*2x03*")
 		(path "/0c4be477-4c8a-4c91-9bf7-3cb6723a5600")
 		(sheetname "/")
