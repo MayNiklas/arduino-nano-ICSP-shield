@@ -1,0 +1,32 @@
+kibot:
+  version: 1
+
+preflight:
+  drc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+  erc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+
+globals:
+  field_lcsc_part: LCSC
+
+import:
+  - file: JLCPCB
+
+outputs:
+  - name: basic_ibom
+    comment: Interactive HTML BoM
+    type: ibom
+    dir: Assembly
+    options:
+      # https://kibot.readthedocs.io/en/master/configuration/outputs/IBoMOptions.html
+      output: "index.%x"
+      extra_data_file: "%F.kicad_pcb"
+      extra_fields: Description,LCSC
+      dark_mode: true
+      highlight_pin1: selected
+      no_compression: true
+      include_nets: true
+      include_tracks: true

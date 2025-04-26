@@ -1,0 +1,58 @@
+name: kibot
+
+on:
+  push:
+    paths:
+    - '.github/workflows/kibot.yaml'
+    - '**.kicad_pcb'
+    - '**.sch'
+    - 'arduino-nano-ICSP-shield/config.kibot.yaml'
+
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        # Required - kibot config file
+        config: arduino-nano-ICSP-shield/config.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: output
+        schema: 'arduino-nano-ICSP-shield/arduino-nano-ICSP-shield.kicad_sch'
+        # optional - PCB design file
+        board: 'arduino-nano-ICSP-shield/arduino-nano-ICSP-shield.kicad_pcb'
+    - name: upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: output
+        path: output
+
+    - name: Upload artifact (GitHub pages)
+      uses: actions/upload-pages-artifact@v3
+      with:
+          path: output/Assembly
+
+  # Deployment job
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: kibot
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
