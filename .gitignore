@@ -30,3 +30,5 @@ fp-info-cache
 
 # Backup files
 *_old
+
+/generated/
