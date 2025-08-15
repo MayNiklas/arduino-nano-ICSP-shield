@@ -109,28 +109,3 @@ outputs:
           rotate_z: -20
           file_id: _30deg
         - view: bottom
-
-  - name: basic_render_3d_top
-    comment: 3D view from top
-    type: render_3d
-    dir: 3D
-    options:
-      ray_tracing: false
-      orthographic: true
-  - name: basic_render_3d_30deg
-    comment: 3D view from 30 degrees
-    type: render_3d
-    dir: 3D
-    output_id: 30deg
-    options:
-      ray_tracing: false
-      rotate_x: 3
-      rotate_z: -2
-  - name: basic_render_3d_bottom
-    comment: 3D view from bottom
-    type: render_3d
-    dir: 3D
-    options:
-      ray_tracing: false
-      orthographic: true
-      view: bottom
